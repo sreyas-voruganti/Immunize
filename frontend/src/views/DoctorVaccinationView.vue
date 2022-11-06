@@ -15,7 +15,7 @@
         top: 0;
       "
     ></iframe>
-    <h1 class="text-2xl font-medium text-center mb-1" style="color: #ffda59">
+    <h1 class="text-2xl font-medium text-center mb-1" style="color: #8d53a4">
       Create a Vaccination Record
     </h1>
     <div class="ml-5 display-flex">
@@ -47,7 +47,7 @@
         />
       </div>
       <div class="mt-3">
-        <label>Date</label>
+        <label>Date </label> <br />
         <input
           type="date"
           class="border-2 rounded-xl p-2 w-11/12"
@@ -74,7 +74,7 @@
       </div>
       <button
         class="px-3 py-2 mt-7 rounded-full w-11/12 text-xl"
-        style="background-color: #ffda59; color: #6f4800"
+        style="background-color: #8d53a4; color: white"
         @click="createPost"
       >
         Sign and Create Vaccination
