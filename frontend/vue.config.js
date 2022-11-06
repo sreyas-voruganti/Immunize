@@ -4,6 +4,6 @@ module.exports = defineConfig({
   pwa: {
     appleMobileWebAppCapable: "yes",
     appleMobileWebAppStatusBarStyle: "black-transculent",
-    themeColor: "#FEF2F2",
+    themeColor: "#fefcfe",
   },
 });
