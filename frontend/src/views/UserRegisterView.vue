@@ -92,6 +92,7 @@ export default {
       localStorage.setItem("user_id", data._id);
       localStorage.setItem("user_type", data.type);
       console.log(data);
+      window.location.href = "/user_profile";
     },
   },
 };
