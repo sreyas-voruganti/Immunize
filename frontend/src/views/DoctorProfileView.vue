@@ -16,6 +16,7 @@
         v-for="vaccination in vaccinations"
         :key="vaccination.id"
         :vaccination="vaccination"
+        :isDoctor="true"
       />
     </div>
   </div>

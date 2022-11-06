@@ -15,6 +15,9 @@
       <br />
       <span class="font-semibold">Location: </span>
       <span>{{ vaccination.location }}</span>
+      <br />
+      <span class="font-semibold" v-if="isDoctor">Patient: </span>
+      <span v-if="isDoctor">{{ vaccination.patientName }}</span>
     </p>
   </div>
 </template>
@@ -23,6 +26,6 @@
 export default {
   // eslint-disable-next-line vue/multi-word-component-names
   name: "Vaccination",
-  props: ["vaccination"],
+  props: ["vaccination", "isDoctor"],
 };
 </script>
